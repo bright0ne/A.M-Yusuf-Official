@@ -3,7 +3,7 @@ import requests
 import os
 from responses import get_response
 
-app = Flask(A M Yusuf Offical)
+app = Flask("A M Yusuf Official")
 
 TOKEN = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
@@ -41,4 +41,5 @@ def webhook():
         print("Error:", e)
 
     return jsonify(status="ok")
+
 
